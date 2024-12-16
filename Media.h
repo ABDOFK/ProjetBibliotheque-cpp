@@ -13,6 +13,7 @@ protected:
 public:
     Media(const string& titre, const string& cheminFichier, int id);
     virtual void afficherDetails() const; 
+    int getId() const;  
 };
 
-#endif 
+#endif
